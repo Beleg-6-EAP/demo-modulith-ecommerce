@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/api/shipments")
 public class ShipmentController {
 
-    private final ShipmentServiceImpl shipmentServiceImpl;
+    private final ShipmentService shipmentServiceImpl;
 
     @GetMapping
     public ResponseEntity<List<Shipment>> getAll() {

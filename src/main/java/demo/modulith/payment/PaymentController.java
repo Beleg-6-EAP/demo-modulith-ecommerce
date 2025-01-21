@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/api/payments")
 public class PaymentController {
 
-    private final PaymentServiceImpl paymentServiceImpl;
+    private final PaymentService paymentServiceImpl;
 
     @GetMapping
     public ResponseEntity<List<Payment>> getAll() {
